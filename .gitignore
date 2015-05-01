@@ -29,5 +29,5 @@
 rails/coverage/*
 rails/spec/reports/*
 /libpeerconnection.log
-npm-debug.log
+npm-debug.log*
 testem.log
