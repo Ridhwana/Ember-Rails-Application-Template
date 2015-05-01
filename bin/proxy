@@ -3,7 +3,7 @@
 var httpProxy = require('http-proxy');
 
 var proxy = httpProxy.createServer(function (req, res, proxy) {
-  var backendHost;
+  var backendPort;
   if (/^\/(api|auth|system|users\/auth)/.exec(req.url)) {
     backendPort = 5000;
   } else {
