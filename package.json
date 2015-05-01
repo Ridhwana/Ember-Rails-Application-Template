@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ridhwana/Ember-Rails-Application-Template/issues"
   },
-  "homepage": "https://github.com/Ridhwana/Ember-Rails-Application-Template"
+  "homepage": "https://github.com/Ridhwana/Ember-Rails-Application-Template",
+  "dependencies": {
+    "http-proxy": "^0.10.4"
+  }
 }
