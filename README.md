@@ -15,10 +15,11 @@ Create the Rails application:
 
 
 ```
-$ rails new app -B -S -d postgresql
+$ rails new app -B -S -T -d postgresql
 $ mv app rails
 ```
 * -B will not run bundle install
+* -T will Skip Test::Unit files
 * -S will disable the asset pipeline by bypassing the sprocket option
 * -d will create a database based on the option given
 
