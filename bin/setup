@@ -1,6 +1,9 @@
 #!/bin/sh -e
 
-echo 5200 > ~/.pow/project
+export PROJECT_NAME = `git rev-parse --show-toplevel | rev | cut -d '/' -f 1 | rev`
+export PROJECT_PORT = 5200
+
+echo $PROJECT_PORT > ~/.pow/$PROJECT_NAME
 
 npm install
 
